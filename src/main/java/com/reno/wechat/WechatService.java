@@ -12,7 +12,7 @@ import java.io.FileNotFoundException;
 /**
  * Created by qxl19 on 2018/5/13.
  */
-@Service
+//@Service
 public class WechatService {
 
     public static Logger LOGGER = Logger.getLogger(WechatService.class);
