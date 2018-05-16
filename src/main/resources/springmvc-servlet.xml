@@ -13,6 +13,8 @@
     <!-- don't handle the static resource -->
     <mvc:default-servlet-handler />
 
+    <mvc:resources mapping="/pictures/**" location="/pictures/" />
+
     <!-- if you use annotation you must configure following setting -->
     <mvc:annotation-driven />
 
